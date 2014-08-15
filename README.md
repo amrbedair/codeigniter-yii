@@ -13,17 +13,17 @@ so I have decided to use it in my CI project,
 
 I have spent some time to allow this work, but here we are, it is working perfect, this is the steps to do this:
 
-- add application/classes [app, yii, booster]
+- add application/classes [app, yii, booster(if you want to use it)]
 - create application/classes/autoloader.php [be sure path is writable for the map]
 - add the classes CIWebController, and CIUrlManager 
 - in index before require_once BASEPATH.'core/CodeIgniter.php';
  * require auto loader, and yii.php
  * init a yii app and note
-  = 'basePath' => APPPATH,
-  = config db component with your settings 
-  = config urlManger class to CIUrlManager, and do not forget to add the 3 basic rules 
-  = config assetManager basePath, and baseUrl
-  = add any components you may need
+   * 'basePath' => APPPATH,
+   * config db component with your settings 
+   * config urlManger class to CIUrlManager, and do not forget to add the 3 basic rules 
+   * config assetManager basePath, and baseUrl
+   * add any components you may need
  * $yii_app->controller = new CIWebController('dummy');
 - add the MY_URI class that extends the ci CI_URI and change _detect_uri() last line
 - add the MY_Loader that extends CI_Loader
