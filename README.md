@@ -15,8 +15,8 @@ I have spent some time to allow this work, but here we are, it is working perfec
 
 - add application/classes [app, yii, booster(if you want to use it)]
 - in YiiBase.php
-  * change the function autoload to let the else of the if(self::$enableIncludePath===false) { /* do nothing */ }
-  * comment the line before the last line // spl_autoload_register(array('YiiBase','autoload'));
+  * change the function `autoload` to let the else of the if(self::$enableIncludePath===false) { /* do nothing */ }
+  * comment the line before the last line `// spl_autoload_register(array('YiiBase','autoload'))`;
 - create application/classes/autoloader.php [be sure path is writable for the map]
 - add the classes CIWebController, and CIUrlManager 
 - in index before require_once BASEPATH.'core/CodeIgniter.php';
