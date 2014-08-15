@@ -3,14 +3,19 @@ codeigniter-yii
 
 integrate yii with codeigniter, to enable using yii awesome grid view inside codeigniter projects
 
-I have searched for a good codeigniter grid widget to use in a project that I was assigned to maintain it, but after awhile it was obvious that I will not find what I am searching for, ... coming from a Yii background I was searching for a non existing thing ... actually Yii's out of the box grid widget is one of the its best features, and of the best grid widgets I have seen ever, also it has some awesome extensions developed by [CleverTech](http://clevertech.biz), [see](http://yiibooster.clevertech.biz/extendedGridView/index.html), so I have decided to use it in my CI project, 
+I have searched for a good codeigniter grid widget to use in a project that I was assigned to maintain it, 
+but after awhile it was obvious that I will not find what I am searching for, ... 
+coming from a Yii background I was searching for a non existing thing ... 
+actually Yii's out of the box grid widget is one of the its best features, 
+and one of the best grid widgets I have seen ever, also it has some awesome extensions developed by 
+[CleverTech](http://clevertech.biz), [see](http://yiibooster.clevertech.biz/extendedGridView/index.html), 
+so I have decided to use it in my CI project, 
 
 I have spent some time to allow this work, but here we are, it is working perfect, this is the steps to do this:
 
 - add application/classes [app, yii, booster]
 - create application/classes/autoloader.php [be sure path is writable for the map]
-- add the classes CIWebController, and CIUrlManager
-- 
+- add the classes CIWebController, and CIUrlManager 
 - in index before require_once BASEPATH.'core/CodeIgniter.php';
  * require auto loader, and yii.php
  * init a yii app and note
