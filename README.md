@@ -17,15 +17,15 @@ I have spent some time to allow this work, but here we are, it is working perfec
 - create application/classes/autoloader.php [be sure path is writable for the map]
 - add the classes CIWebController, and CIUrlManager 
 - in index before require_once BASEPATH.'core/CodeIgniter.php';
- * require auto loader, and yii.php
- * init a yii app and note
-   * 'basePath' => APPPATH,
-   * config db component with your settings 
-   * config urlManger class to CIUrlManager, and do not forget to add the 3 basic rules 
-   * config assetManager basePath, and baseUrl
-   * add any components you may need
- * $yii_app->controller = new CIWebController('dummy');
+  * require auto loader, and yii.php
+  * init a yii app and note
+    * 'basePath' => APPPATH,
+    * config db component with your settings 
+    * config urlManger class to CIUrlManager, and do not forget to add the 3 basic rules 
+    * config assetManager basePath, and baseUrl
+    * add any components you may need
+  * $yii_app->controller = new CIWebController('dummy');
 - add the MY_URI class that extends the ci CI_URI and change _detect_uri() last line
 - add the MY_Loader that extends CI_Loader
- * in MY_Loader add the functions yii_view(), and widget()
+  * in MY_Loader add the functions yii_view(), and widget()
 - in your view use $this->load->widget('CGridView', []);
