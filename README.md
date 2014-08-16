@@ -3,7 +3,7 @@ codeigniter-yii
 
 integrate yii with codeigniter, to enable using yii awesome grid view inside codeigniter projects
 
-***This projecy uses Yii 1.1.15, and CodeIgniter 2.2.0***
+***This project uses Yii 1.1.15, and CodeIgniter 2.2.0***
 
 ![Sample](https://photos-6.dropbox.com/t/0/AAAwe7DyAb9GvI1UFlBrE60Nb24iO3VItC_NNt0bvEWe9Q/12/68954001/png/1024x768/3/1408143600/0/2/Screenshot%202014-08-16%2000.06.38.png/p0JqiK8jjvpt-3_1dEhO7G-ug0osYT-uwnxvgJ1Ai44)
 
