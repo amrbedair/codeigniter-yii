@@ -5,7 +5,7 @@ integrate yii with codeigniter, to enable using yii awesome grid view inside cod
 
 ***This project uses Yii 1.1.15, and CodeIgniter 2.2.0***
 
-![Sample](https://photos-6.dropbox.com/t/0/AAAwe7DyAb9GvI1UFlBrE60Nb24iO3VItC_NNt0bvEWe9Q/12/68954001/png/1024x768/3/1408143600/0/2/Screenshot%202014-08-16%2000.06.38.png/p0JqiK8jjvpt-3_1dEhO7G-ug0osYT-uwnxvgJ1Ai44)
+![Sample](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-08-16%2000.06.38.png?_subject_uid=68954001&w=AAAb0nAIFO7imovTPjKnVkWL3Qukpq31DJoaUocrBFSG_g)
 
 I have searched for a good codeigniter grid widget to use in a project that I was assigned to maintain it, 
 but after awhile it was obvious that I will not find what I am searching for, ... 
